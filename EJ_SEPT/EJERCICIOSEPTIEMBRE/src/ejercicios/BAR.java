@@ -15,9 +15,14 @@ public class BAR {
         int numeroBebidas = teclado.nextInt();
         System.out.println("¿Y cuantos bocadillos os pongo?");
         int numeroBocadillos = teclado.nextInt();
-        double cuenta = (numeroBebidas*precioBebida)+(numeroBocadillos*precioBocadillo);
+        double cuentaBebidas = precioBebida*numeroBebidas;
+        double cuentaBocadillos = numeroBocadillos*precioBocadillo;
+        double cuentaGeneral = (numeroBebidas*precioBebida)+(numeroBocadillos*precioBocadillo);
+        double cuenta = cuentaBebidas+cuentaBocadillos;//ESTO ES LO MISMO QUE LA LINEA DE ARRIBA
 
-        System.out.printf("Bueno!Espero que hayáis pasado buena tarde, como habéis tomado %d bebidas y %d bocadillos, \n la cuenta os va a salir por %.2f",numeroBebidas,numeroBocadillos,cuenta);
+        System.out.printf("Coste parcial de las bebidas: %.2f\n",cuentaBebidas);//SI NO GENERAMOS EL SALTO DE LINEA LA SIGUIENTE LINEA SE QUEDA PEGADA
+        System.out.println("Coste parcial de los bocadillos: "+cuentaBocadillos);
+        System.out.printf("Bueno!Espero que hayáis pasado buena tarde, como habéis tomado %d bebidas y %d bocadillos, \n la cuenta os va a salir por %.2f",numeroBebidas,numeroBocadillos,cuentaGeneral);
         //ESTA VEZ EN EL $f HE PUESTO '.2' PARA DECIRLE QUE SOLO ME MUESTRE 2 DECIMALES.
 
     }
