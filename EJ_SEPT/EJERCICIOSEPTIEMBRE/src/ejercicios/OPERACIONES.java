@@ -31,9 +31,6 @@ public class OPERACIONES {
         double divisionReal = (double)var1 / var2; /*AQUÍ HACEMOS 'CASTEO' DE UNA DE LAS DOS VARIABLES INT A DOUBLE
         PARA PODER EJECUTAR LA DIVISIÓN CON DECIMALES*/
 
-
-
-
         System.out.println("La suma de las dos variables es "+suma);
         System.out.println("La resta de las dos variables es "+resta);
         System.out.println("El product de las dos variables es "+producto);
