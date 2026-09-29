@@ -42,7 +42,7 @@ public class CosteBar {
         System.out.printf("%-10s  %10.2f\n","Bebidas",(numBebida*precioBebida));
         System.out.printf("%-10s  %10.2f\n","Bocadillos",(numBocadillo*precioBocadillo));
         System.out.printf("%-20s %-10s %-10d %10.2f\n","A dividir","ENTRE",numAlumno,((numBebida*precioBebida)+(numBocadillo*precioBocadillo))/numAlumno);
-
+teclado.close();
 
 
     }
