@@ -35,7 +35,7 @@ public class TEMPERATURA {
         System.out.printf("Temperatura inicial en Farenheit = %.2f.\nTemperatura en Centigrados = %.2f, temperatura en Kelvin %.2f \n\n",farenheit,centigradosDESDEFarenheit,kelvinDESDEFarenheit);
         System.out.printf("Temperatura inicial en Kelvin = %.2f.\nTemperatura en Centigrados = %.2f, temperatura en Farenheit %.2f ",kelvin,centigradosDESDEKelvin,farenheitDESDEKelvin);
 
-
+entrada.close();
 
 
     }
