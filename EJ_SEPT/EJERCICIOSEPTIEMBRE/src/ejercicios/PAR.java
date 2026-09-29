@@ -23,7 +23,7 @@ public class PAR {
     }
         System.out.println("Tu numero es par? "+esPar);
         System.out.println("Tu numero es mayor que 50? "+esMayor);
-
+entrada.close();
 
     }
 }
